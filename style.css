@@ -73,10 +73,9 @@ nav a.active{
 @media(max-width:995px){
     nav{
         position: absolute;
-        display: none;
         top: 0;
         right: 0;
-        width: 40%;
+        width: auto;
         border-left: 3px solid #b74b4b;
         border-bottom: 3px solid #b74b4b;
         border-bottom-left-radius: 2rem;
@@ -250,12 +249,6 @@ span{
     }
 }
 
-@media (max-width: 1000px){
-    .home{
-        gap: 4rem;
-    }
-}
-
 @media(max-width:995px){
     .home{
         flex-direction: column;
@@ -274,4 +267,169 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
+
+/* General Reset for Experience page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the Education section */
+.education {
+    padding: 5rem 9%;
+    background-color: black;
+    color: white;
+}
+
+.education h1 {
+    font-size: 4rem;
+    color: #b74b4b;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+table, th, td {
+    border: 2px solid #b74b4b;
+}
+
+th, td {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+
+th {
+    background-color: #b74b4b;
+    font-weight: 700;
+}
+
+td {
+    background-color: #161616;
+    vertical-align: middle; /* Center content vertically */
+}
+
+/* Image styling */
+td img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    display: block; /* Required for margin auto to work */
+    margin: 0 auto; /* Center image horizontally */
+}
+
+/* Responsive adjustments */
+@media (max-width: 995px) {
+    table, th, td {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    td img {
+        width: 80px;
+    }
+}
+
+
+/* General Reset for Experience page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the Experience section */
+.experience {
+    padding: 5rem 9%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.experience-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.experience-content img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.experience-content h2 {
+    font-size: 3rem;
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.experience-content p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.responsibilities {
+    list-style-type: none; /
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.responsibilities li {
+    position: relative;
+    padding-left: 2.5rem; 
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+.responsibilities li::before {
+    content: '';
+    width: 10px; 
+    height: 10px; 
+    background-color: #b74b4b; 
+    border-radius: 50%; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 995px) {
+    .experience-content img {
+        width: 120px;
+    }
+
+    .experience-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .experience-content p {
+        font-size: 1.4rem;
+    }
+
+    .responsibilities li {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
 }
