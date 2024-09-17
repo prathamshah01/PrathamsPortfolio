@@ -268,7 +268,10 @@ span{
         margin-top: 4rem;
     }
 
-/* General Reset for Experience page */
+
+
+
+/* General Reset for Education page */
 * {
     margin: 0;
     padding: 0;
@@ -278,6 +281,7 @@ span{
 }
 
 /* Styling for the Education section */
+
 .education {
     padding: 5rem 9%;
     background-color: black;
@@ -349,6 +353,7 @@ td img {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
 
 /* Styling for the Experience section */
 .experience {
@@ -430,7 +435,9 @@ td img {
 }
 
 
-/* General Reset */
+
+
+/* General Reset for Projects page */
 * {
     margin: 0;
     padding: 0;
@@ -439,12 +446,14 @@ td img {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* Styling for the Projects section */
 .projects {
     padding: 5rem 9%;
     background-color: black;
     color: white;
 }
+
 
 /* Container for Project Item */
 .project-item {
@@ -454,6 +463,7 @@ td img {
     margin-bottom: 3rem;
 }
 
+
 /* Project Image Styling */
 .project-img img {
     width: 200px; /* Adjust size as needed */
@@ -461,6 +471,7 @@ td img {
     border-radius: 8px;
     margin-right: 2rem;
 }
+
 
 /* Project Details Styling */
 .project-details {
@@ -482,6 +493,7 @@ td img {
     font-size: 1.4rem;
     line-height: 1.6;
 }
+
 
 /* Social Icons Styling */
 .social-icons {
@@ -510,26 +522,9 @@ td img {
     transform: scale(1.3);
 }
 
+
 /* Responsive adjustments */
-@media (max-width: 1000px) {
-    .project-img img {
-        width: 150px;
-    }
-
-    .project-details h1 {
-        font-size: 2rem;
-    }
-
-    .tagline {
-        font-size: 1.4rem;
-    }
-
-    .description {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 995px) {
     .project-item {
         flex-direction: column;
         text-align: center;
@@ -671,7 +666,7 @@ td img {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1000px) {
+@media (max-width: 995px) {
     .contact-info h2 {
         font-size: 2.5rem;
     }
@@ -688,6 +683,7 @@ td img {
     .contact-form textarea {
         padding: 0.8rem;
         font-size: 1.2rem;
+        
     }
 
     .contact-form button {
@@ -695,29 +691,7 @@ td img {
     }
 }
 
-@media (max-width: 600px) {
-    .contact-info h2 {
-        font-size: 2rem;
-    }
 
-    .contact-info p {
-        font-size: 1.2rem;
-    }
-
-    .contact-form label {
-        font-size: 1rem;
-    }
-
-    .contact-form input, 
-    .contact-form textarea {
-        padding: 0.6rem;
-        font-size: 1rem;
-    }
-
-    .contact-form button {
-        font-size: 1.2rem;
-    }
-}
 
 
 }
