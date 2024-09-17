@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pratham's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects - Pratham's Portfolio</title>
 </head>
 <body>
-    
+    <header>
+        <a href="index.html" class="logo">Pratham's Portfolio</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="edu.html">Education</a>
+            <a href="exp.html">Experience</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <br>
+        <br>
+        <div class="project-item">
+            <div class="project-img">
+                <img src="images/logo1.png" alt="Project Image">
+            </div>
+            <div class="project-details">
+                <h1>LeftOver's</h1>
+                <h3 class="tagline">A bridge between food waste and famished people</h3>
+                <p class="description">
+                    An Android application bridging the gap between surplus food and
+                    starvation.
+                    Where Java was used for code, local database to store auto login details, and Firebase
+                    for validation, authentication, and storage.                </p>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/prathamshah01/FWD" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" title="PowerPoint"><i class="fa-brands fa-powerpoint"></i></a>
+                <a href="docs/LeftOver'sReport.pdf" target="_blank" title="Report"><i class="fa-solid fa-file"></i></a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
